@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
 
   s.source_files = 'MBAlertView/**/*.{h,m}'
+  s.dependency 'AutolayoutHelpers'
 
   s.framework  = 'QuartzCore'
 
